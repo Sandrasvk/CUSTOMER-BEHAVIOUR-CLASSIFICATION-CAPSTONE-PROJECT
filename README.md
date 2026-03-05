@@ -11,7 +11,7 @@ The analysis is based on the Customer_Behaviour.csv dataset, which includes the 
 * *Purchased (Target)*: Binary classification (1 if the customer purchased the product, 0 otherwise).
 
 ## 🛠️ Implementation Steps
-### 1. Data Cleaning & Preprocessing
+### 1. Data Cleaning 
 * *Null Value Check*: Verified that the dataset contains no missing values.
 * *Feature Selection*: The User ID column was removed as it does not contribute to the prediction model.
 * *Categorical Encoding*: Converted the Gender column into binary numerical values using a custom function.
@@ -20,8 +20,8 @@ The analysis is based on the Customer_Behaviour.csv dataset, which includes the 
 * Used *Seaborn Heatmaps* to visualize and analyze the correlation between Age, Salary, and Purchase behavior.
 * I have used pairplots, countplots etc for the data visualization
 
-### 3. Feature Scaling (Standard Scaler used)
-* Splitted input and target variables
+### 3. Data Preprocessing and Feature Scaling (Standard Scaler used)
+* Split the dataset into input and target variables
 * I have used Standard Scaler for the feature scaling
 * Train test Split : The model are selected for train test split. 80% are used for training and 20% for testing
 * I have used various ML algorithms like Logistic Regression, Random Forest, Support Vector Machine
