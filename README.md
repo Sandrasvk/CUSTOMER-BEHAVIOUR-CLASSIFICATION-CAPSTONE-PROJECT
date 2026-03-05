@@ -21,8 +21,9 @@ The analysis is based on the Customer_Behaviour.csv dataset, which includes the 
 * I have used pairplots, countplots etc for the data visualization
 
 ### 3. Feature Scaling (Standard Scaler used)
-* Train test Split : The model are selected for train test split. 80% are used for training and 20% for testing
+* Splitted input and target variables
 * I have used Standard Scaler for the feature scaling
+* * Train test Split : The model are selected for train test split. 80% are used for training and 20% for testing
 * I have used various ML algorithms like Logistic Regression, Random Forest, Support Vector Machine
 * Used cross val scores of all models into a dataframe
 
