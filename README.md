@@ -18,8 +18,15 @@ The analysis is based on the Customer_Behaviour.csv dataset, which includes the 
 
 ### 2. Exploratory Data Analysis (EDA)
 * Used *Seaborn Heatmaps* to visualize and analyze the correlation between Age, Salary, and Purchase behavior.
+* I have used pairplots, countplots etc for the data visualization
 
-### 3. Model Deployment (GUI)
+### 3. Feature Scaling (Standard Scaler used)
+* Train test Split : The model are selected for train test split. 80% are used for training and 20% for testing
+* I have used Standard Scaler for the feature scaling
+* I have used various ML algorithms like Logistic Regression, Random Forest, Support Vector Machine
+* Used cross val scores of all models into a dataframe
+
+### 4. Model Deployment (GUI)
 The project features a functional desktop application created with the *Tkinter* library to allow for interactive predictions:
 * *Input Fields: Users can enter a customer's **Age* and *Salary*.
 * Used combobox for gender
